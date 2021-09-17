@@ -89,10 +89,17 @@ main{
   padding-bottom: 20px;
 }
 
-.title{
-  height: 70px;
-  background-color: #9DC5E0;
-  margin-bottom: 20px;
+.titlebox{
+  margin-bottom: 40px;
+}
+
+.titlebox h1{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.titlebox span{
+  color: #B6B6B6;
 }
 
 .left, .center, .right{
