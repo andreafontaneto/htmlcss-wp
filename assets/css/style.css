@@ -51,7 +51,6 @@ nav a:first-child{
 
 .jumbotron{
   height: 500px;
-  background-color: #DACE6D; /* da togliere */
   background-image: url('../img/banner.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -85,10 +84,10 @@ main{
 }
 
 .content{
-  background-color: #1771FB;
   padding-bottom: 20px;
 }
 
+/* title & subtitle */
 .titlebox{
   margin-bottom: 40px;
 }
@@ -102,23 +101,65 @@ main{
   color: #B6B6B6;
 }
 
-.left, .center, .right{
+/* 3 columns */
+.left-col, .center-col, .right-col{
   float: left;
   min-height: 500px;
-  background-color: #9DC5E0;
 }
 
-.left, .right{
+.left-col, .right-col{
   width: 20%;
 }
 
-.center{
+.center-col{
   width: 56%;
   margin: 0 2%;
 }
 
+.col-image{
+  height: 200px;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.image-left{
+  background-image: url('../img/img-1.jpg');
+}
+
+.image-center{
+  background-image: url('../img/banner-2.jpg');
+}
+
+.image-right{
+  background-image: url('../img/img-3.jpg');
+}
+
+.col-text{
+  margin-top: 20px;
+}
+
+.col-text span{
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.col-text p{
+  color: #B6B6B6;
+} 
+
 /* FOOTER */
 footer{
   height: 70px;
-  background-color: #7100F6;
+  text-align: center;
+}
+
+footer span{
+  font-size: 16px;
+}
+
+footer span::after{
+  content: '\2665';
+  color: red;
 }
