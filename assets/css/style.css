@@ -51,10 +51,12 @@ nav a:first-child{
 
 .jumbotron{
   height: 500px;
+  background-color: rgba(0, 0, 0, 0.2);
   background-image: url('../img/banner.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-blend-mode: multiply;
   margin-bottom: 20px;
 }
 
