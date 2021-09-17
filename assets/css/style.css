@@ -25,7 +25,7 @@
 .logo{
   width: 200px;
   padding-right: 20px;
-  border-right: 1px solid grey;
+  border-right: 1px solid #B6B6B6;
   margin-bottom: 40px;
 }
 
@@ -45,10 +45,38 @@ nav a:hover, nav a:active{
   color: #FC4C53;
 }
 
+nav a:first-child{
+  padding-left: 0;
+}
+
 .jumbotron{
   height: 500px;
-  background-color: #DACE6D;
+  background-color: #DACE6D; /* da togliere */
+  background-image: url('../img/banner.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-bottom: 20px;
+}
+
+.overlay{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.jumbo-text{
+  width: 60%;
+  padding-top: 300px; /* DA MODIFICARE! */
+}
+
+.jumbo-title, .jumbo-subtitle{
+  color: white;
+  padding-left: 50px;
+}
+
+.jumbo-title{
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
 /* MAIN */
