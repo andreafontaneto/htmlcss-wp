@@ -1,3 +1,4 @@
+/* GLOBAL */
 *{
   margin: 0;
   padding: 0;
@@ -15,10 +16,32 @@
   margin: 20px auto;
 }
 
+/* HEADER */
 .header-top{
-  height: 70px;
-  background-color: #DB61DD;
   margin-bottom: 20px;
+}
+
+.logo{
+  width: 200px;
+  padding-right: 20px;
+  border-right: 1px solid grey;
+  margin-bottom: 40px;
+}
+
+nav ul li{
+  list-style: none;
+  float: left;
+  margin-bottom: 40px;
+}
+
+nav a{
+  text-decoration: none;
+  color: #B6B6B6;
+  padding: 0 10px;
+}
+
+nav a:hover, nav a:active{
+  color: #FC4C53;
 }
 
 .jumbotron{
@@ -27,6 +50,7 @@
   margin-bottom: 20px;
 }
 
+/* MAIN */
 main{
   margin: 20px 0 10px 0;
 }
@@ -57,6 +81,7 @@ main{
   margin: 0 2%;
 }
 
+/* FOOTER */
 footer{
   height: 70px;
   background-color: #7100F6;
