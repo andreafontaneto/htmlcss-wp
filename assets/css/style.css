@@ -109,7 +109,6 @@ main{
 /* 3 columns */
 .left-col, .center-col, .right-col{
   float: left;
-  min-height: 500px;
 }
 
 .left-col, .right-col{
@@ -165,8 +164,8 @@ main{
 
 /***** FOOTER *****/
 footer{
-  height: 70px;
   text-align: center;
+  padding: 30px;
 }
 
 footer span{
